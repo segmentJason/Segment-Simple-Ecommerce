@@ -1,19 +1,8 @@
 **To run it:**
 
-```javascript
-npm i
+```bash
+npm i && npm run start
 ```
-
 then
 
-```javascript
-npm run build
-```
-
-then
-
-```javascript
-npm run start
-```
-
-Go to localhost:3000
+Go to [localhost:3000](http://localhost:3000)
