@@ -1,10 +1,10 @@
+import classNames from "classnames";
+import * as R from "ramda";
 import React from "react";
 import { connect } from "react-redux";
-import { getCategories, getActiveCategoryId } from "../selectors/Phones";
 import { Link, withRouter } from "react-router";
 import { compose } from "redux";
-import classNames from "classnames";
-import R from "ramda";
+import { getActiveCategoryId, getCategories } from "../selectors/Phones";
 
 const Categories = (props) => {
   const { categories, activeCategoryId } = props;

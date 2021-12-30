@@ -1,10 +1,10 @@
+import * as R from "ramda";
 import React from "react";
 import { connect } from "react-redux";
-import { fetchPhoneById, addPhoneToBasket } from "../actions/Phones";
-import { getPhonesById } from "../selectors/Phones";
-import R from "ramda";
-import BasketCart from "./BasketCart";
 import { Link } from "react-router";
+import { addPhoneToBasket, fetchPhoneById } from "../actions/Phones";
+import { getPhonesById } from "../selectors/Phones";
+import BasketCart from "./BasketCart";
 
 class Phone extends React.Component {
   componentDidMount = () => {
