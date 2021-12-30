@@ -14,7 +14,7 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  background: url("/images/preloader.gif") no-repeat 50% 50%;
+  background: url(./images/preloader.gif) no-repeat 50% 50%;
   margin: -32px 0 0 -32px;
 }
 
@@ -49,7 +49,7 @@
   left: -75%;
   z-index: 2;
   display: block;
-  content: "";
+  content: '';
   width: 50%;
   height: 100%;
   background: -webkit-linear-gradient(
@@ -106,10 +106,10 @@
   cursor: default;
 }
 .rating li i {
-  font-family: "Glyphicons Halflings";
+  font-family: 'Glyphicons Halflings';
 }
 .rating li i:before {
-  content: "\e006";
+  content: '\e006';
 }
 .rating.readonly li.filled {
   color: #666;
@@ -152,7 +152,7 @@
   color: #333;
   cursor: default;
   display: inline-block;
-  font-family: "Glyphicons Halflings";
+  font-family: 'Glyphicons Halflings';
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -166,10 +166,10 @@
   cursor: default;
 }
 .newRaiting li i:before {
-  content: "\e007";
+  content: '\e007';
 }
 .newRaiting li.filled i:before {
-  content: "\e006";
+  content: '\e006';
 }
 .average {
   float: left;
@@ -195,7 +195,7 @@
   font-size: 34px;
 }
 .delete-cart {
-  background: url(/images/trash_16x16.gif) no-repeat 0 0;
+  background: url(./images/preloader.gif) no-repeat 0 0;
   display: block;
   height: 16px;
   width: 16px;
@@ -345,7 +345,7 @@ nav.navbar-inverse .navbar-nav > li > a.Active {
 }
 #dLabel {
   color: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   line-height: 18px;
 }
