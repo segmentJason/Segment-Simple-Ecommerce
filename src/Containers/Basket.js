@@ -1,16 +1,13 @@
+import * as R from "ramda";
 import React from "react";
 import { connect } from "react-redux";
-import {
-  getTotalBasketPrice,
-  getBasketPhonesWithCount,
-} from "../selectors/Phones";
-import R from "ramda";
-import {
-  removePhoneFromBasket,
-  cleanBasket,
-  basketCheckout,
-} from "../actions/Phones";
 import { Link } from "react-router";
+import {
+  basketCheckout, cleanBasket, removePhoneFromBasket
+} from "../actions/Phones";
+import {
+  getBasketPhonesWithCount, getTotalBasketPrice
+} from "../selectors/Phones";
 import Coupon from "./Coupon";
 
 const Basket = ({

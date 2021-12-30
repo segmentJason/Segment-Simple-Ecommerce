@@ -1,6 +1,6 @@
-import phones from "./mockPhones";
-import R from "ramda";
+import * as R from "ramda";
 import mockCategories from "./mockCategories";
+import phones from "./mockPhones";
 
 export const fetchPhones = async () => {
   return new Promise((resolve) => {
