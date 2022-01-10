@@ -8,4 +8,4 @@ then
 
 Go to [localhost:3000](http://localhost:3000)
 
-Forked from https://github.com/humbertoroliveira/simple-ecommerce-web Thanks Humbero!
+Forked from https://github.com/humbertoroliveira/simple-ecommerce-web Thanks Humberto!
