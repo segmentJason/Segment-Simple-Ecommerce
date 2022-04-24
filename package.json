@@ -16,7 +16,7 @@
     "redux-thunk": "2.4.1"
   },
   "devDependencies": {
-    "react-scripts": "5.0.0"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
